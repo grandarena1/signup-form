@@ -4,6 +4,10 @@
     display: flex;
 }
 
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
 /* Left content */
 
 .left-content {
@@ -39,6 +43,7 @@
 h1 {
     font-family: 'Norse', sans-serif;
     color: white;
+    font-size: 70px;
 }
 
 /* Right side content */
@@ -46,20 +51,47 @@ h1 {
 .right-content {
     height: 100vh;
     width: 65vw;
-}
-
-.right-content-top-panel, .right-content-bottom-panel {
-    width: 100%;
-    height: 34%;
     background-color: rgb(240, 243, 247);
 }
 
-.right-content-middle-panel {
-    width: 100%;
-    height: 32%;
+.right-content-top-panel {
+    padding: 80px;
+}
+
+.right-content-top-panel p {
+    font-weight: 600;
+    font-size: 18px;
+    text-align: left;
+    line-height: 23px;
+}
+
+.right-content-top-panel span {
+    font-style: italic;
+}
+
+.right-content-form-container {
+    height: 30%;
     background-color: white;
 }
 
 .right-content-bottom-panel {
-    box-shadow: 0px -2px 7px 2px rgba(0, 0, 0, 0.15);
+    
+}
+
+div > button {
+    background-color: #596D48;
+    color: white;
+    font-weight: bold;
+    padding: 12px 40px;
+    border-radius: 5px;
+    margin: 30px;
+}
+
+div > p {
+    margin-left: 30px;
+}
+
+.log-in-btn {
+    text-decoration: none;
+    color: #596D48;
 }

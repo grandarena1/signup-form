@@ -47,6 +47,7 @@ h1 {
 }
 
 /* Right side content */
+/* Top section */
 
 .right-content {
     height: 100vh;
@@ -69,14 +70,15 @@ h1 {
     font-style: italic;
 }
 
+/* Form section */
+
 .right-content-form-container {
     height: 30%;
     background-color: white;
+    box-shadow: 0 4px 5px -5px gray;
 }
 
-.right-content-bottom-panel {
-    
-}
+/* Bottom section */
 
 div > button {
     background-color: #596D48;
